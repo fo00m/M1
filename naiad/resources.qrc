@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/plugins/naiad">
+    <file>icons/open.png</file>
+    <file>icons/generate.png</file>
+    <file>icons/help.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

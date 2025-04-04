@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NAIADDialog</class>
+ <widget class="QDialog" name="NAIADDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NAIAD - Trajectoires Sous-Marines</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_chemin">
+     <property name="text">
+      <string>Aucun fichier sélectionné</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="bouton_csv">
+     <property name="text">
+      <string>Sélectionner CSV</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableau_donnees"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="bouton_generer">
+       <property name="text">
+        <string>Générer trajectoires</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bouton_tableau">
+       <property name="text">
+        <string>Afficher tableau</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bouton_animation">
+       <property name="text">
+        <string>Lancer l'animation</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
