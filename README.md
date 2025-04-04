@@ -3,7 +3,7 @@ L’objectif de plugin : visualiser les trajectoire des drones sous-marins
 
 Ce projet comprend :
 - **NAIAD**: Un plugin QGIS pour visualiser les données GPS des drones sous-marins.
-- **Pygame Animation**: Un script séparé pour simuler les mouvements des drones avec pygame.
+- **PYGAME_animation.py**: Un script séparé pour simuler les mouvements des drones avec pygame.
 - un fichier .csv pour tester le plugin 
 
 ## Mode d’emploi
