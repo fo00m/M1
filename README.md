@@ -18,7 +18,7 @@ Ce projet comprend :
 ```bash
 pip install pygame pandas
 python visualization/drone_animation.py
-
+```
 
 ## Membres de l'équipe
 - YIN Ruohan
