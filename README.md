@@ -4,7 +4,10 @@ L’objectif de plugin : visualiser les trajectoire des drones sous-marins
 Ce projet comprend :
 - **NAIAD**: Un plugin QGIS pour visualiser les données GPS des drones sous-marins.
 - **PYGAME_animation.py**: Un script séparé pour simuler les mouvements des drones avec pygame.
-- un fichier .csv pour tester le plugin 
+- **testfile.csv**: un fichier .csv pour tester le plugin NAIAD et PYGAME
+- **QGIS_fond-carte_2025-04-02_Sentinel-2_L2A.tiff**: un geotiff fond-de-carte, à charger dans QGIS avant le lancement de plugin NAIAD
+- ocean-waves.gif: fichier-fond pour PYGAME
+
 
 ## Mode d’emploi
 
@@ -12,10 +15,12 @@ Ce projet comprend :
 - Copiez le dossier `NAIAD/` dans votre répertoire d’extensions QGIS.
 - Ouvrez QGIS → Extensions → Gérer et installer → Activer NAIAD
         (QGIS → Plugins → Manage and Install → Enable NAIAD
+- **Remarque : veuillez charger le fichier GeoTIFF "QGIS_fond-carte" avant de lancer le plugin, afin d'assurer un centrage optimal de la carte.**
 - Chargez un fichier CSV avec les colonnes : 'drone_id', 'longitude', 'latitude', 'depth', 'timestamp'
 Pour plus d'explication, voir :
 - [Pas à pas rapide avec images] (doc_NAIAD_v.rapide.pdf)
 - [Documentation de plugin complete] (doc_NAIAD_v.complete.pdf)
+
 
 ### 2. Pygame Visualization
 Ouvrir le code de Pygame (PYGAME_animation.py) en VSCode  → Ouvrir le terminal  → Charger les packages necessaires (voir en bas)  → Lancer le code en VSCode
