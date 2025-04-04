@@ -15,6 +15,7 @@ Ce projet comprend :
 - Chargez un fichier CSV avec les colonnes : 'drone_id', 'longitude', 'latitude', 'depth', 'timestamp'
 Pour plus d'explication, voir :
 - [Pas à pas rapide avec images] (doc_NAIAD_v.rapide.pdf)
+- [Documentation de plugin complete] (doc_NAIAD_v.complete.pdf)
 
 ### 2. Pygame Visualization
 Ouvrir le code de Pygame (PYGAME_animation.py) en VSCode  → Ouvrir le terminal  → Charger les packages necessaires (voir en bas)  → Lancer le code en VSCode
