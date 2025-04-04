@@ -11,14 +11,23 @@ Ce projet comprend :
 ### 1. QGIS Plugin (NAIAD)
 - Copiez le dossier `NAIAD/` dans votre répertoire d’extensions QGIS.
 - Ouvrez QGIS → Extensions → Gérer et installer → Activer NAIAD
-        (QGIS → Plugins → Manage and Install → Enable NAIAD)
+        (QGIS → Plugins → Manage and Install → Enable NAIAD
 - Chargez un fichier CSV avec les colonnes : 'drone_id', 'longitude', 'latitude', 'depth', 'timestamp'
+Pour plus d'explication, voir :
+- [Pas à pas rapide avec images] (doc_NAIAD_v.rapide.pdf)
 
 ### 2. Pygame Visualization
+Ouvrir le code de Pygame (PYGAME_animation.py) en VSCode  → Ouvrir le terminal  → Charger les packages necessaires (voir en bas)  → Lancer le code en VSCode
 ```bash
-pip install pygame pandas
+pip install pygame pandas pyproj Pillow
 python visualization/drone_animation.py
 ```
+Quand vous lancer le Pygame,
+- Ouvrez le fichier .csv
+- Suivez les instructions dans le pop-up
+- Ouvrez le .tif
+- Si l'animation est trop vite, ajustez la vitesse
+
 
 ## Membres de l'équipe
 - YIN Ruohan
@@ -37,3 +46,4 @@ Les colonnes sont les suivantes:
 - **latitude** - Latitude en degrés décimaux (EPSG : 4326). Le nord est positif.
 - **depth** (optionnel) - Profondeur en m (les valeurs négatives indiquent généralement une profondeur sous la surface).
 - **timestamp** - Date et heure ISO 8601 (par exemple, 2024-03-13T14:00:00Z). Doit être en UTC. (ex. 2024-03-13T16:15:00Z)
+  
