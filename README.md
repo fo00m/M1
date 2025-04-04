@@ -27,6 +27,7 @@ Quand vous lancer le Pygame,
 - Suivez les instructions dans le pop-up
 - Ouvrez le .tif
 - Si l'animation est trop vite, ajustez la vitesse
+- [Documentation de PYGAME avec images] (doc_NAIAD_PYGAME_TUTORIAL.pdf)
 
 
 ## Membres de l'équipe
